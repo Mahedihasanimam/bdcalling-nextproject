@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="px-4 divide-y bg-[#232323] text-[#F8FAFC]  ">
-        <div className="container  flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+    <div className="bg-[#232323]">
+      <footer className="px-4 divide-y  text-[#F8FAFC] container mx-auto  ">
+        <div className="  flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
           <div className="lg:w-1/3  space-y-2">
             <a
               rel="noopener noreferrer"

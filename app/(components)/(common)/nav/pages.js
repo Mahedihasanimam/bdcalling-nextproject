@@ -8,10 +8,10 @@ const Navbar = () => {
   const navitem = (
     <>
       <li>
-        <Link href={'#'}>Home</Link>
+        <Link href={'/'}>Home</Link>
       </li>
       <li>
-        <Link href={'#'}>Our Editors</Link>
+        <Link href={'/editors'}>Our Editors</Link>
       </li>
       <li>
         <Link href={'#'}>How to order?</Link>
