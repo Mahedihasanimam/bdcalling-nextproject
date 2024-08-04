@@ -48,7 +48,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">
-            <Image className="lg:w-full md:w-full w-11/12    " src={logo2} height={0} width={0} alt="Logo" />
+            <Image className="lg:w-full md:w-full w-11/12" src={logo2} height={0} width={0} alt="Logo" />
           </a>
         </div>
         <div className="navbar-center hidden lg:flex  justify-center">
@@ -56,7 +56,7 @@ const Navbar = () => {
           <input type="checkbox" className="toggle bg-[#8ABA51] hover:bg-[#8ABA51] text-black border-none" defaultChecked />
         </div>
         <div className="navbar-end md:w-1/3  flex justify-end">
-          <button className="btn bg-transparent hover:bg-transparent border text-white">
+          <button className="  rounded-md lg:btn btn-sm lg:bg-transparent bg-transparent lg:text-white flex gap-1 p-1 hover:bg-transparent border text-white">
             <FaRegUserCircle size={25} /> Join Now
           </button>
         </div>
