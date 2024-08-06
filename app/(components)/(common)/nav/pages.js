@@ -18,7 +18,6 @@ const Navbar = () => {
       </li>
     </>
   );
-
   return (
     <div className=" absolute w-full">
       <div className="navbar container  border-2 border-slate-400 border-opacity-10 mx-auto mt-6 bg-[#455B65] rounded-md text-white">
@@ -56,9 +55,12 @@ const Navbar = () => {
           <input type="checkbox" className="toggle bg-[#8ABA51] hover:bg-[#8ABA51] text-black border-none" defaultChecked />
         </div>
         <div className="navbar-end md:w-1/3  flex justify-end">
-          <button className="  rounded-md lg:btn btn-sm lg:bg-transparent bg-transparent lg:text-white flex gap-1 p-1 hover:bg-transparent border text-white">
+        <Link href={'/login'}>
+
+        <button className="  rounded-md lg:btn btn-sm lg:bg-transparent bg-transparent lg:text-white flex gap-1 p-1 hover:bg-transparent border text-white">
             <FaRegUserCircle size={25} /> Join Now
           </button>
+        </Link>
         </div>
       </div>
     </div>
